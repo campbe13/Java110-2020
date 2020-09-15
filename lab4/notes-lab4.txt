@@ -1,0 +1,14 @@
+lab4 notes
+
+do not use caps to begin vars
+
+int perimeter;   // not int Perimeter;
+
+use meaningful names
+
+int area;    // not int number;
+
+
+printing with vars & strings
+
+System.out.println("this is a string " + perimeter + "another string " + area + "yet another ");
