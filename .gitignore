@@ -1,11 +1,14 @@
-# original from https://github.com/github/gitignore/blob/master/Java.gitignore
-
+# added 2020-11-14 PMCampbell
 # windows files
 *.ini
 # word files and excel
 *.doc*
 *.xls*
+# dr java backup
+*.java~
 
+# below from the original file
+# original from https://github.com/github/gitignore/blob/master/Java.gitignore
 # Compiled class file
 *.class
 
