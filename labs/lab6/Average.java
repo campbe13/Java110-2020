@@ -11,7 +11,7 @@ public class Average {
    
      public static void main(String[] args) { 
        Scanner stdin = new Scanner(System.in);
-       int num1, num2, num3;
+       double num1, num2, num3;
        System.out.println("Calculating the average of 3 numbers");
        
        System.out.print("First number: ");

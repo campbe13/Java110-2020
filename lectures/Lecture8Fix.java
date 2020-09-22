@@ -15,6 +15,7 @@ public class Lecture8Fix {
    short a=4,b=5,c;
    c = (a + b); 
    System.out.println("a + b = c: " + a +"+"+b+"="+c);
+   /*
    // challenge #2 
    int aa;
    long bb;
@@ -27,5 +28,6 @@ public class Lecture8Fix {
    double classAvg;
    classAvg = sumGrades/numStudents;
    System.out.println("class average " + classAvg);
+   */
   }
 }
