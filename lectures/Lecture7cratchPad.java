@@ -1,12 +1,12 @@
 import java.util.Scanner;
 /**  
- * Lecture 8 
+ * Lecture 7 
  * used as a scratch pad for code during lecture
  * 
  * @author PMCampbell
  * @version 2020-09-22
  */
-public class Lecture8ScratchPad {
+public class Lecture7ScratchPad {
    
      public static void main(String[] args) {  double x = -b / 2 * a; 
         
