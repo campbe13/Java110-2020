@@ -15,5 +15,9 @@ public class Scratch {
        System.out.println("x " + x);      // 3.0 double = int  because 3 int is converted to double (widening conversion)
        System.out.println("y " + y);      // 3.0 double = double
        System.out.println("z " + z);      // 3  int = int
+       System.out.println("3%10: " + 3%10);
+       System.out.println("-3%10: " + -3%10);
+       System.out.println("3/10: " + 3/10);
+       System.out.println("-3/10: " + -3/10);
      }
 }
