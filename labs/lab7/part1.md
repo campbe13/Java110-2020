@@ -1,8 +1,8 @@
 # part 1 theory
+For any of the below, I suggest you try doing these in code, 
+make sure they compile & run & display the output.
 
-## 1. choose a variable 
-after the following execute what are the values in x, y and z
-
+## 1. choose a variable data type 
 ```java
 int w = 2;
 
@@ -22,7 +22,7 @@ double d = (1 / 2.0) + .5;
 
 double e = ((1 / 2) + (1 / 2)) * 1.0;
 ```
-## 2. value ??
+## 2. show the result of the expression stored in the variable
 ```java
 int w = 2;
 ```  
