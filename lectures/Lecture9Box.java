@@ -15,6 +15,8 @@ public class Lecture9Box {
     showBox();
     showBox();
     showBox();
+    showBox();
+    showBox();
   }
   public static void showBox() {
      System.out.println("*****");

@@ -1,3 +1,11 @@
+# delay labs until they've had a chance to try
+labs/lab10*
+labs/lab11*
+labs/lab12*
+labs/lab13*
+labs/lab14*
+labs/lab15*
+labs/lab16*
 # added 2020-11-14 PMCampbell
 # windows files
 *.ini
