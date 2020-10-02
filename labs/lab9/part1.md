@@ -80,11 +80,13 @@ public class Methods {
 }
 ```
 ### Answer
+See [Trace1.java](Trace1.java)
+<pre><pre>
 0        // main x
 0        // confusing y
 1        // confusing y
 0        // main x
-}
+</pre>
 ## 6.	Consider the following code: What will print? 
 After you have come up with an answer, check your answer by putting it into the computer and running the program. Make sure you understand why the results are what they are.
 ```java
@@ -103,13 +105,13 @@ public class Methods {
 }
 ```
 ### answer
+See [Trace2.java](Trace2.java)
+<pre>
 0
-
 0
-
 1
-
 0
+</pre>
 ## 7.	Consider the following code: What will print? 
 After you have come up with an answer, check your answer by putting it into the computer and running the program. Make sure you understand why the results are what they are.
 
@@ -127,9 +129,11 @@ public class Methods {
 }
 ```
 ### answer
+See [Trace3.java](Trace3.java)
+<pre>
 1
-
 0
+</pre>
 
 
 
