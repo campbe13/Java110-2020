@@ -104,8 +104,11 @@ public class Methods {
 ```
 ### answer
 0
+
 0
+
 1
+
 0
 ## 7.	Consider the following code: What will print? 
 After you have come up with an answer, check your answer by putting it into the computer and running the program. Make sure you understand why the results are what they are.
@@ -125,6 +128,7 @@ public class Methods {
 ```
 ### answer
 1
+
 0
 
 
