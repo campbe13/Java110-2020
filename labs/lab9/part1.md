@@ -51,10 +51,13 @@ public class Methods {
 }
 ```
 ### Answer
-A nothing   (only args)
-B x and  y   (and args)
-C p and z
-D x and y and r (and args)
+A. nothing   (only args)
+
+B. x and  y   (and args)
+
+C. p and z
+
+D. x and y and r (and args)
 ## 3. In the above code (2.) would we be allowed to declare a variable called x at SPOT C ? Why or why not?
 yes you would, because x only exists in main() this would be a new separate x.
 ## 4. In the above code, (2.) what is String[] args?
