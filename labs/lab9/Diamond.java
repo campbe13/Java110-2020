@@ -15,19 +15,19 @@ public class Diamond {
     printDiamond();
     printDiamond();
   }
-/**
- * Display a triangle on screen
- * (not sure where diamond came from
- *  
- * @author P.M.Campbell
- * @version 2020-fall
- * 
- */
+  /**
+   * Display a triangle on screen
+   * (not sure where diamond came from
+   *  
+   * @author P.M.Campbell
+   * @version 2020-fall
+   * 
+   */
   public static void printDiamond() {
-     System.out.println("*");
-     System.out.println("**");
-     System.out.println("***");
-     System.out.println("****");
-     System.out.println("*****");
+    System.out.println("*");
+    System.out.println("**");
+    System.out.println("***");
+    System.out.println("****");
+    System.out.println("*****");
   }
 }
