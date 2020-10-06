@@ -19,6 +19,8 @@ public class Lecture9Greet {
     String person2  = in.next();
     sayGreeting(person1, person2);
     sayGreeting(person2, person1);
+    sayGreeting(person2, person2);
+    sayGreeting(person1, person1);
   }
   public static void sayGreeting(String listener, String speaker) {
      System.out.println("Hello there "+listener+" it's me "+ speaker + "!");

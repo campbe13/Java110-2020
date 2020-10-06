@@ -16,6 +16,8 @@ public class Lecture10JavaDocs {
     /*
      * this is a multi line comment, begins with forward slash + one asterisk
      * you must end it with one asterisk + forward slash
+     * 
+     * make it easy to read
      */
   }
   /**
@@ -28,7 +30,7 @@ public class Lecture10JavaDocs {
    * @param param1      desciption of parameter
    * @param param2      desciption of parameter
    * 
-   * @return  fahrenheit converted to celscius
+   * @return datatype   description of what is returned by this method
    * 
    * @author PCampbell
    * @version 2020-10-05
