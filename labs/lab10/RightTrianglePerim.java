@@ -16,20 +16,22 @@ public class RightTrianglePerim {
   
   public static void main(String[] args) { 
     Scanner in = new Scanner(System.in);
-    double side1, side2;
+    double side1, side2, perimeter;
     
     System.out.println("Calculating the perimeter of a right angle triangle");
     
     System.out.print("what is the length side 1: ");
-    side1 = in.nextInt();
+    side1 = in.nextDouble();
     System.out.print("what is the length side 2: ");
-    side2 = in.nextInt();
+    side2 = in.nextDouble();
     
     System.out.print("A  Right triangle with Sides of " + side1 + " and " +side2 );
+    perimeter = perimeterRightTriangle(side1, side2);
+    System.out.println(" has a perimeter of  " + perimeter);
     System.out.println(" has a perimeter of  " + perimeterRightTriangle(side1, side2));
   }
   /**
-   * given the lenght of the two right sides of a right angle triangle
+   * given the length of the two right sides of a right angle triangle
    * return the perimeter 
    *  
    * @param sidea      one side length 

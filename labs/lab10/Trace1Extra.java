@@ -1,4 +1,4 @@
-public class Trace1 {
+public class Trace1Extra {
     public static void main(String[] args) {
       int x = 0, save;                                  // 1
       System.out.println(x);                      // 2
