@@ -11,6 +11,7 @@ import java.util.Scanner;
 public class Lecture12Boolean {
   public static void main(String[] args) {
     Scanner in = new Scanner(System.in);
+    System.out.print("Please enter a number: ");
     int x = in.nextInt();
     boolean b = x > 5; //x > 5 is “true” or “false”
     boolean b2 = 3*x + 5 < 0;
@@ -21,8 +22,8 @@ public class Lecture12Boolean {
       System.out.println(x + " is even");
     } else {
       System.out.println(x + " is odd");
-    }  }
-  
+    }  
+  } 
   public static boolean isEven (int num) {
     if (num % 2 == 0 )  {
       return true;

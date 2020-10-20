@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class Lecture12Char {
   public static void main(String[] args) {
     Scanner in = new Scanner(System.in);
-    char c = 'a'; // stores a single letter into char c
+    char c2,c3,c = 'a'; // stores a single letter into char c
     String s = "a"; // stores a single letter letter into String s
     System.out.println("char " + c);
     System.out.println("String " + s);
@@ -20,7 +20,10 @@ public class Lecture12Char {
     
     c = (char)126;   // cast an int to char 126 ascii is ~
     System.out.println("char 126 " + c);
-    
+    c2 = 200;
+    System.out.println("char 200 " + c2);   
+    c3 = (char)64;
+    System.out.println("char 64 " + c3);
     System.out.println("enter an int between 0 & "+(int)(Math.pow(2,15)-1));
     c = (char)in.nextInt();
     System.out.println("char for  " + c);
