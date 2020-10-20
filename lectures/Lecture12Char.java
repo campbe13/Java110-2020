@@ -16,13 +16,24 @@ public class Lecture12Char {
     System.out.println("char " + c);
     System.out.println("String " + s);
     // to upper / lower ??  
-    c = (char)123;
+    
+    
+    c = (char)126;   // cast an int to char 126 ascii is ~
+    System.out.println("char 126 " + c);
+    
     System.out.println("enter an int between 0 & "+(int)(Math.pow(2,15)-1));
     c = (char)in.nextInt();
     System.out.println("char for  " + c);
-    System.out.println("enter a char");
+    
+    // read in a string
+    System.out.print("enter your name: ");
+    s = in.next();     // next() reads in string
+    System.out.println("Hello " + s + "!");
+    // read in a char
+    System.out.print("enter a char: ");
     c = in.next().charAt(0);     // next() reads in string, charAt(0) reads 1st char in the string
     System.out.println("char for  " + c);
+    
     
   }
   

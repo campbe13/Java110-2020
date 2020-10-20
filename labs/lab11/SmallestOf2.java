@@ -15,9 +15,13 @@ public class SmallestOf2 {
     first = in.nextInt();
     System.out.print("Enter another number:");
     second = in.nextInt();
-    
+      if (num1 < num2) {
+      System.out.println("The smallest is " + num1);
+    } else{
+      System.out.println("The smallest is " + num2);
+    }
     System.out.println("You entered " + first +" and " + second);
-    System.out.println("The smallest is " + minOfTwoIntegers(first,second));
+    //System.out.println("The smallest is " + minOfTwoIntegers(first,second));
   }
   public static int minOfTwoIntegers (int num1, int num2) {
     if (num1 < num2) {

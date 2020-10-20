@@ -19,7 +19,7 @@ public class Bank {
     amount = in.nextDouble();
     if (amount < 10) {
       service = amount * .01;
-    } else if (amount >= 10) {
+    } else if (amount >= 10) {  // do I need the if in this statement, why, why not?
       if (amount < 100) {
         service = amount * .1;
       } else if (amount < 1000) {

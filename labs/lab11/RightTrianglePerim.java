@@ -25,7 +25,7 @@ public class RightTrianglePerim {
       System.out.print("what is the length side 2: ");
       side2 = in.nextDouble();
       if (side2 > 0) {
-        
+        // side 1 AND side 2 are positive numbers > 0
         System.out.print("A  Right triangle with Sides of " + side1 + " and " +side2 );
         perimeter = perimeterRightTriangle(side1, side2);
         System.out.println(" has a perimeter of  " + perimeter);
