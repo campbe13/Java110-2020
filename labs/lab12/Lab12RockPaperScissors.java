@@ -34,6 +34,8 @@ public class Lab12RockPaperScissors {
               System.out.println("Player 2 wins,  rock breaks scissors");
     } else if (player1 == 'p' && player2 == 's') {
               System.out.println("Player 2 wins,  scissors cut paper");
+    } else {
+        System.out.println("Impossible or my algorithm is bad, or validation is bad");
     }
   }
 }

@@ -24,9 +24,9 @@ hours + overtime <= 75
 * hours > 40.0
     * hours > 40.0 => 45.3 > 40.0 => true
 * !found && (hours>=0)
-    * !found && (hours>=0)
+    * !found && (hours>=0) => !true && (45.3>0) => false && true => false
 * !(found && (hours >=0))
-    * !(found && (hours >=0))
+    * !(found && (hours >=0)) => (true && (45.3>0) => (true && true)  => !true => false
 * hours + overtime <= 75 
     * hours + overtime <= 75 => 45.3 + 15 => 60.3 <= 75 => true
 * (count >= 0) && (count <= 100)

@@ -11,6 +11,11 @@ import java.util.Scanner;
 public class Lecture12Char {
   public static void main(String[] args) {
     Scanner in = new Scanner(System.in);
+    
+    char cc = 119;
+    System.out.println("cc " + cc); // w
+    System.out.println("cc " + cc+6); // }
+    char cd = 'w';
     char c2,c3,c = 'a'; // stores a single letter into char c
     String s = "a"; // stores a single letter letter into String s
     System.out.println("char " + c);

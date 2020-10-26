@@ -23,7 +23,9 @@ public class Lab12Q1 {
     System.out.println((ch >= 'A' && ch <='Z'));
     System.out.println((ch >= 'a' && ch <= 'z'));
     // try to compile, error:  The operator < is undefined for the argument type(s) boolean, int
-    //System.out.println(10 < count < 30);  
+    // System.out.println(10 < count < 30);  
+    // try to compile, error:  The operator < is undefined for the argument type(s) boolean, boolean
+    // System.out.println(true < false);  
     System.out.println(10 < count);
     System.out.println(count < 30); 
     System.out.println(10 < count && count < 30);  

@@ -2,7 +2,7 @@ import java.util.Scanner;
 /**
  * 
  * Lab 12
- * given x & why values determine
+ * given x & y values determine
  * which quadrant in a cartesian plane
  * 
  *    2  |  1

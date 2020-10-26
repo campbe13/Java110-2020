@@ -24,8 +24,11 @@ public class Lab12RockPaperScissorsAI {
       player2 = 'p';
     } else if (player1 == 'p') {
       player2 = 's';
-    }  else {  // only other possibility is s 
+    }  else if (player1 == 's') {
       player2 = 'r';
+    } else {  // invalid data
+      player2 = player1;
+      System.out.println("this is not r,p or s, try again "+player1);
     }
     
     if  (player1 == player2) {

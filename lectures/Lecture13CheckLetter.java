@@ -27,9 +27,10 @@ public class Lecture13CheckLetter {
     }
   }
   public static boolean isLetter1(char testChar) {
+    // check for lower case letter
     if (testChar >= 97 && testChar <= 122) {
       return true;
-    } else if (testChar >= 65 && testChar <= 90) {
+    } else if (testChar >= 65 && testChar <= 90) { // check for upper case letter
       return true;
     }
     return false;
