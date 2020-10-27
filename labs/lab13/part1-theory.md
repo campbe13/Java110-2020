@@ -11,8 +11,8 @@ c + 4
 d + 2
 ```
 * c >= ‘a’ && c <= ‘z’      evaluates to true because both are true
-* c + 4                     evaluates to h  
-* d + 2                     evaulates to  ENQ or enquiry, non printable
+* c + 4                     evaluates to 'h'  
+* d + 2                     evaulates to '5'
 
 2.	Assume you have a char variable c. Write a Boolean expression to check if the character stored in c represents a letter between g and s upper & lower case. 
 ```
