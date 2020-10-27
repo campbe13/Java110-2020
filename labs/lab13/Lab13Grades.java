@@ -29,6 +29,8 @@ public class Lab13Grades {
     if (grade < 0 || grade > 100) {
       return 'I';
     }
+    // if I reach this point grade contains a 
+    // number between 0-100
     if (grade < 25) {
       return 'F';
     } else if (grade <= 45) {

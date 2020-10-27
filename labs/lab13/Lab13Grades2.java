@@ -23,9 +23,10 @@ public class Lab13Grades2 {
     
     if (grade < 0 || grade > 100) {
        System.out.println("Invalid marks!");
-    }
+    } else {
     System.out.println("Letter grade is "+getGrade(grade));
     }
+  }
   
   public static char getGrade(double grade) {
     if (grade < 25) {

@@ -29,5 +29,20 @@ public class Lab13Square {
   }
   public static boolean isSquare(int length, int breadth) {
     return (length == breadth);
+    // valid also
+    /*
+    if (length == breadth) {
+      return true;
+      }
+    return false;
+    */  
+    //  valid also
+    /* 
+    if (length == breadth) {
+      return true;
+      } else {
+      return false;
+    }
+    */
   }
 }
