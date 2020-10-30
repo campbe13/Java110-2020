@@ -57,9 +57,11 @@ public class Lab14Day {
       return "Friday";
     } else if (day == 7) {
       return "Saturday";
-    } else {
-      return "Sunday";
+    /* } else {
+      return "else";
+      */
     }
+    
   }
   /* 
    * isWeekend

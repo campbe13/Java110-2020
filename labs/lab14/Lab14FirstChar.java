@@ -27,10 +27,13 @@ public class Lab14FirstChar {
     System.out.print("Enter a character ");
     ch = in.next().charAt(0);
     */
+    // technically the same, & gives right result butn
+    // not the right answer to the request
+    //if (phrase.charAt(0) == ch)
     if (isFirstChar(phrase, ch)) {
        System.out.println("The first letter matches!");
     } else {
-       System.out.println("The first letter does not matche!");
+       System.out.println("The first letter does not match!");
     }
   }
    /* 

@@ -29,7 +29,6 @@ public class Lab14Attendance {
   }
    /* 
   * checkAttendance
-  * checks if the first char of the string is == to the char given
   * 
   * @param held number of classes held 
   * @param attended number of classes attended
@@ -45,7 +44,6 @@ public class Lab14Attendance {
        return false;
      }
      // instead of if block could do this
-     // return (ratio >= 0.75)
-    
+     // return (ratio >= 0.75)   
   }
 }
