@@ -3,7 +3,7 @@ import java.util.Scanner;
  *
  * Lab 16 exercise #1 
  * ask for a number input 
- * display numbers betweeen 1 that number 
+ * display numbers between 1 that number 
  *
  * @author P.M.Campbell
  * @version 2020-fall

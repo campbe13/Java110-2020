@@ -1,7 +1,7 @@
 import java.util.Scanner;
 /**
  *
- * Lab 16 exercise #2 
+ * Lab 16 exercise #3 
  * ask for a number input 
  * countdown from that number
  * 
@@ -12,7 +12,7 @@ import java.util.Scanner;
  * @version 2020-fall
  *
  */
-public class Lab16ex2 {
+public class Lab16ex3 {
   public static void main(String[] args) {
     int n = getPositive();
     
