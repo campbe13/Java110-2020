@@ -41,5 +41,5 @@ System.out.println(x + " " + y + " " + z);
 | 3| 2 | | |
 | 4 | 3 |  6 |     add to y before (3) , add to x after (3)  so 3 + 3 = 6  |
 ```
-4 3 8 
+4 3 6
 ```
