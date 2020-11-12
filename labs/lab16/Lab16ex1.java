@@ -3,7 +3,8 @@ import java.util.Scanner;
  *
  * Lab 16 exercise #1 
  * ask for a number input 
- * display numbers between 1 that number 
+ * display numbers between 1 & that number 
+ * then count down from that number
  *
  * @author P.M.Campbell
  * @version 2020-fall
@@ -15,27 +16,29 @@ public class Lab16ex1 {
     n = getPositive();
     
     while ( counter < n ) { 
-      System.out.print(" " + counter++);
+      System.out.print(" " + counter);
+      counter++;
     }
-    counter = n;
+    // counter = n;
     while ( counter >= 1 ) { 
-      System.out.print(" " + counter--);
+      System.out.print(" " + counter);
+      counter--;
     }
   }
-/**
- * read in a number, return only +ve number
- * 
- * @return int   positive number
- */
-public static int getPositive() {
-      Scanner in = new Scanner(System.in);
-      int number;
+  /**
+   * read in a number, return only +ve number
+   * 
+   * @return int   positive number
+   */
+  public static int getPositive() {
+    Scanner in = new Scanner(System.in);
+    int number;
+    System.out.print("Enter a number: ");
+    number = in.nextInt();
+    while (number <=0) {
       System.out.print("Enter a number: ");
       number = in.nextInt();
-      while (number <=0) {
-      System.out.print("Enter a number: ");
-      number = in.nextInt();
-      }
-      return number;
-}
+    }
+    return number;
+  }
 } 

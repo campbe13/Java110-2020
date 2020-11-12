@@ -20,7 +20,7 @@ public class Lab16ex3Pause {
     
     while ( n > 0 ) { 
       System.out.println(n--);
-      Thread.sleep(200); 
+      Thread.sleep(1000); 
     }
     
     System.out.print("Blastoff!!");

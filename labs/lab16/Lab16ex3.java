@@ -15,12 +15,13 @@ import java.util.Scanner;
 public class Lab16ex3 {
   public static void main(String[] args) {
     int n = getPositive();
-    
+    // while ( n >= 1 ) { // same
     while ( n > 0 ) { 
-      System.out.println(n--);
+      System.out.println(n);
+      n--;
     }
     
-    System.out.print("Blastoff!!");
+    System.out.println("Blastoff!!");
   }
   /**
    * read in a number, return only +ve number
