@@ -17,6 +17,22 @@ import java.util.Scanner;
 public class Lecture17StarsnmDescending  {
   public static void main(String[] args) {
     Scanner in = new Scanner(System.in);
-    // starter code
+    int n;
+    
+    System.out.print("enter number of stars ");
+    n = in.nextInt();
+    
+    for (int m = 1 ;m <= n; m++) {
+      for (int counter = m;counter >= 1; counter--) {
+        System.out.print("*");
+      }
+      System.out.println();
+    }
   }
 }
+
+
+
+
+
+

@@ -13,7 +13,11 @@ import java.util.Scanner;
  */
 public class Lecture17Starsnm  {
   public static void main(String[] args) {
-    Scanner in = new Scanner(System.in);
-    // starter code
+	// starter code
   }
 }
+
+
+
+
+
