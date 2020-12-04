@@ -4,33 +4,35 @@ import java.util.Scanner;
  * calling methods
  * pass arguments by value
  * 
+ * 
  * @author PMCampbell
  * @version 2020-12-01
  */
-public class Lecture21ChangeReference {
+public class Lecture21DoubleArray {
   
   public static void main(String[] args) {  
-    double[] z =  { 1.0, 2.0};
+    double[] z =  { 1.0, 2.0, 1.34567 };
     double[] q =  { 1.0, 3.0, 4.0 };                
     
-    printArray(z, "Array z, before calling foo() ");
-    foo(q , z);
-    printArray(z, "Array z, after calling foo() ");
+    printArray(z, "Array z, before calling doubleMe() ");
+    doubleMe(z);
+    printArray(z, "Array z, after calling doubleMe() ");
+    
+    printArray(q, "\nArray q, before calling doubleMe() ");
+    doubleMe(q);
+    printArray(q, "Array q, after calling doubleMe() ");
     
   }
   /**
-   * fake method to illustrate
-   * that an array as an argument is a pointer
+   * double the elements of an array
    * 
-   * we cannot change the pointer itself  
-   * but we can change the content of the array
+   * @param array to be doubled
    */
-  public static void foo(double x[], double y[]) {
-    double q[] = new double[3];
-    y = new double[] {5,10,15,20,25 };
-    y[3] = 55;
-    // now y is pointing to a new array,  
-    // not the same one it came in with
+  public static void doubleMe(double array[]) {
+    for(int i=0;i<array.length;i++) {
+      array[i] = array[i] * 2;
+      // array[i] *= 2;
+    }
   }
   /**
    * display contents of an array with {}

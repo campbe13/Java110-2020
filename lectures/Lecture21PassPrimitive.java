@@ -19,7 +19,11 @@ public class Lecture21PassPrimitive {
        System.out.println("z " + z);
      }
      public static void foo(double x, double y) {
+       System.out.println("foo x " + x);
+       System.out.println("foo y " + y);
        x=3;
        y=4;
+       System.out.println("foo x " + x);
+       System.out.println("foo y " + y);
      }
 }

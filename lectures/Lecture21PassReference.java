@@ -13,9 +13,11 @@ public class Lecture21PassReference {
     double[] z =  { 1.0, 2.0};
     double[] q =  { 1.0, 3.0, 4.0 };                
     
-    printArray(z, "Array z, before calling foo() ");
+    //printArray(z, "Array z, before calling foo() ");
+    printArray(q, "Array q, before calling foo() ");
     foo(q , z);
-    printArray(z, "Array z, after calling foo() ");
+    //printArray(z, "Array z, after calling foo() ");
+    printArray(q, "Array q, after calling foo() ");
     
   }
   /**
@@ -27,6 +29,7 @@ public class Lecture21PassReference {
    */
   public static void foo(double x[], double y[]) {
     y[0]= 5;
+    x[1] = 123;
   }
   /**
    * display contents of an array with {}
