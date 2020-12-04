@@ -45,7 +45,7 @@ public class Lab19SetArray2 {
     return array;
   }
   /**
-   * create an array, init with same as ix
+   * display contents of an array with {}
    * 
    * @param array array to be printed
    */

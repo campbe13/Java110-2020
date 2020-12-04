@@ -13,6 +13,7 @@ public class Lab19 {
     int z[] = { 25, 20,55, 105 };
     y[0] = 8; y[1] =16;
     int q[] = y;
+    int t = 5;
     
     System.out.println("x " + x);
     System.out.println("y " + y);
@@ -22,6 +23,8 @@ public class Lab19 {
     q = z;
     System.out.println("q " + q);
     System.out.println("q[0] " + q[0]);
+    System.out.println("z[2] " + z[2] + " z " + z);
+    System.out.println("t " + t);
   }
 }
 
