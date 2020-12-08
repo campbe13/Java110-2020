@@ -29,7 +29,7 @@ public class Lecture21TernaryOp {
     else {
       int max = y;
     }
-    //System.out.println("The max is " + max);
+    System.out.println("The max is " + max);
   }
   /**
    * solution 1 for scopeProbem()
